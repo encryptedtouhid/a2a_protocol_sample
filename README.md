@@ -2,7 +2,6 @@
 
 A reference sample agent built on the official [`a2a-sdk`](https://pypi.org/project/a2a-sdk/) for Python. Everything heavy (JSON-RPC transport, SSE streaming, task store, push-notification dispatch) comes from the SDK; the code in this repo is just wiring: an `AgentCard`, an `AgentExecutor`, bearer-auth middleware, and four demo skills.
 
-> Want a from-scratch version without the SDK? See the earlier revisions in git history (before the SDK rewrite).
 
 ## What's implemented
 
